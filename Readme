@@ -1,0 +1,11 @@
+Executar o projeto:
+
+1 - cd "C:\xampp\htdocs\AtividadeDockerPython"
+
+2 - docker build -t python-flask-app .
+
+3 - docker run -p 5000:5000 python-flask-app
+
+4 - No navegador / Vá para http://localhost:5000. Você deverá ver a mensagem "Olá, Docker com Python!".
+
+END .......
